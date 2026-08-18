@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="md:hidden relative z-20 h-full">
 
             {/* Teks kiri */}
-            <div className="absolute left-0 bottom-[100px] z-50 w-[100%] pl-5">
+            <div className="absolute left-0 bottom-[110px] z-50 w-[100%] pl-5">
               <HeroLeft />
             </div>
 
@@ -56,7 +56,7 @@ const Hero = () => {
             </div>
 
             {/* Tombol */}
-            <div className="absolute bottom-0 left-0 right-0 z-50 px-5 pb-10">
+            <div className="absolute bottom-0 left-0 right-0 z-50 px-5 pb-5">
               <button
                 type="button"
                 onClick={() => setIsContactOpen(true)}
