@@ -46,7 +46,7 @@ const Hero = () => {
           <div className="md:hidden relative z-20 h-full">
 
             {/* Teks kiri */}
-            <div className="absolute left-0 bottom-[25.5vw] z-50 w-[100%] pl-5">
+            <div className="absolute left-0 bottom-[30vw] z-50 w-[100%] pl-5">
               <HeroLeft />
             </div>
 
