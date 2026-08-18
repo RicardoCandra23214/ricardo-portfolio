@@ -21,7 +21,7 @@ const ContactModal = ({ onClose }) => {
 
     if (method === "whatsapp") {
       const text = encodeURIComponent(
-     `Halo Ricardo, saya ${nama}.\n\n${pesan}\n\nSaya menghubungi dari portfolio Anda.`);
+     `Halo Ricardo, saya ${nama}."\n\n${pesan}\n\n" Saya menghubungi dari portfolio Anda.`);
       window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`, "_blank", "noopener,noreferrer");
       onClose();
       return;
