@@ -221,7 +221,7 @@ const SecondPage = () => {
                 <p className="font-semibold">Bachelor of Informatics Engineering</p>
                 <p className="text-sm text-white/50">STMIK PONTIANAK</p>
               </div>
-              <span className="text-sm text-white/40">2022 - 2026</span>
+              <span className="text-sm text-white/40">2022-2026</span>
             </div>
 
             <p className="mt-8 text-xs font-semibold uppercase tracking-[0.2em] text-[#D7292C]">
