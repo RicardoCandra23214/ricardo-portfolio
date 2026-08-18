@@ -1,16 +1,29 @@
-# React + Vite
+# Ricardo Candra — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Hi, I'm Ricardo — a fresh graduate in Informatics Engineering who enjoys building clean, functional web applications.
 
-Currently, two official plugins are available:
+This is my personal portfolio website. It showcases selected projects, skills, and a bit about how I work.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live
 
-## React Compiler
+(Coming soon after deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Built with
 
-## Expanding the Oxlint configuration
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+- React Router
+- EmailJS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Projects featured
+
+- **Courier Route Optimization** — thesis project for optimizing delivery routes
+- **Laundry Management** — CRUD web app for laundry operations
+- **Personal Portfolio** — this website
+
+## Run locally
+
+```bash
+npm install
+npm run dev
