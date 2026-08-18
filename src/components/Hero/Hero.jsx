@@ -6,6 +6,7 @@ import HeroRight from "./HeroRight";
 import HeroImage from "./HeroImage";
 import SecondPage from "./SecondPage";
 import ContactModal from "./ContactModal";
+import { MapPin } from "lucide-react";
 
 const Hero = () => {
   const [isContactOpen, setIsContactOpen] = useState(false);
@@ -46,13 +47,21 @@ const Hero = () => {
           <div className="md:hidden relative z-20 h-full">
 
             {/* Teks kiri */}
-            <div className="absolute left-0 bottom-[30vw] z-50 w-[100%] pl-5">
+            <div className="absolute left-0 bottom-[40vw] z-50 w-[100%] pl-5">
               <HeroLeft />
             </div>
 
             {/* Foto */}
             <div className="absolute right-[-70px] bottom-0 z-40 h-[100%] w-[90%]">
               <HeroImage />
+            </div>
+
+            {/* Lokasi - mobile only, posisi independen */}
+            <div className="absolute left-0 bottom-[95px] z-50 flex items-center gap-1.5 pl-5">
+              <MapPin size={12} className="text-white/75" />
+              <span className="text-[10px] font-medium uppercase tracking-[0.12em] text-white/65">
+                Kota Pontianak, Indonesia
+              </span>
             </div>
 
             {/* Tombol */}

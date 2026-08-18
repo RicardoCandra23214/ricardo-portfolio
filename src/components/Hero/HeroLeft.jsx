@@ -80,7 +80,7 @@ const HeroLeft = () => {
 
       <motion.div
         variants={item}
-        className="mt-24 flex items-center gap-1.5 md:mt-14"
+         className="hidden mt-24 items-center gap-1.5 md:mt-14 md:flex"
       >
         <MapPin size={12} className="text-white/75 md:text-white" />
         <span className="text-[10px] font-medium uppercase tracking-[0.12em] text-white/65 md:text-[10px] md:text-white/60">
