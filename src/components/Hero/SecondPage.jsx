@@ -36,7 +36,7 @@ const fadeUp = {
 
 const staggerContainer = {
   hidden: {},
-  visible: { transition: { staggerChildren: 0.15 } },
+  visible: { transition: { staggerChildren: 0.05 } },
 };
 
 const projects = [

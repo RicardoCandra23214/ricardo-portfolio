@@ -12,7 +12,7 @@ const Hero = () => {
 
   return (
     <>
-      <section className="relative h-screen min-h-[100dvh] max-h-[780px] overflow-hidden bg-gradient-to-b from-[#C5C5C5] via-[#8B8B8B] to-[#1A1A1A] md:h-screen md:min-h-screen md:max-h-none md:from-white md:via-[#E9E9E9]/100 md:to-[#0F1115]">
+      <section className="relative h-[100svh] max-h-[780px] overflow-hidden bg-gradient-to-b from-[#C5C5C5] via-[#8B8B8B] to-[#1A1A1A] md:h-screen md:min-h-screen md:max-h-none md:from-white md:via-[#E9E9E9]/100 md:to-[#0F1115]">
         
         {/* Background text PORTFOLIO - diperbesar sedikit */}
         <h1
@@ -23,7 +23,7 @@ const Hero = () => {
             bg-clip-text text-transparent
 
             /* Mobile */
-            top-[28%] text-[145px]
+            top-[28%] text-[33vw]
 
             /* Desktop (original) */
             md:top-24 md:text-[280px] lg:text-[360px] xl:text-[410px]
