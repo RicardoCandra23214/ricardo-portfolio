@@ -24,7 +24,7 @@ const Hero = () => {
             bg-clip-text text-transparent
 
             /* Mobile */
-            top-[25%] text-[33vw]
+            top-[20%] text-[33vw]
 
             /* Desktop (original) */
             md:top-24 md:text-[280px] lg:text-[360px] xl:text-[410px]
