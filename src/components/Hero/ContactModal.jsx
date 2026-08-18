@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { X } from "lucide-react";
 import emailjs from "@emailjs/browser";
 
 const WHATSAPP_NUMBER = "6283151727739"; // dari +62 831 5172 7739
@@ -66,13 +65,6 @@ const ContactModal = ({ onClose }) => {
         onClick={(e) => e.stopPropagation()}
         className="relative flex h-auto max-h-[90vh] w-full max-w-[400px] sm:max-w-[435px] flex-col rounded-[24px] sm:rounded-[28px] border border-white/15 bg-[#1B1A1B]/50 p-6 sm:p-8 text-white shadow-2xl backdrop-blur-xl overflow-y-auto"
       >
-        <button
-          type="button"
-          onClick={onClose}
-          className="absolute right-5 top-5 rounded-full p-1.5 text-white/50 transition hover:bg-white/10 hover:text-white"
-        >
-          <X size={18} />
-        </button>
 
         {/* Tabs */}
         <div className="flex items-center gap-8">
